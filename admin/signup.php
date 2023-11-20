@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Log in to Dashboard</title>
+    <title>Sign up to Dashboard</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -36,18 +36,30 @@
     <!-- container start -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h2 class="display-1">Janamukti Health-Enterprises Nepal</h2>
+        <h2 class="display-1">Sign up to United Limited</h2>
         <div class="row">
           <div class="col-md-6">
             <p>
-              
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis labore aliquam perferendis. Reiciendis, voluptates quia obcaecati illo cumque et. Consequuntur repudiandae debitis adipisci, quia cupiditate magnam laudantium officia suscipit dolorum?
             </p>
-            <img src="../assets/images/" alt="Janamukti" class="img-thumbnail">
+            <img src="../assets/img/sauna.jpg" alt="United Limited" class="img-thumbnail">
           </div>
           <div class="col-md-6 bg-dark text-light">
             <br><br>
             <form action="" method="post">
-              
+
+              <div class="form-group">
+                <label for="fname">First Name:</label>
+                <input type="text"
+                  class="form-control" name="fname" id="" placeholder="First Name">
+              </div>
+
+              <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <input type="text"
+                  class="form-control" name="lname" id="" placeholder="Last Name">
+              </div>
+
               <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" class="form-control" name="username" id="" placeholder="Username">
@@ -59,29 +71,35 @@
               </div>
 
               <div class="form-group">
-                <button type="submit" name="submit" class="btn btn-success btn-lg">Log in</button>
+                <button type="submit" name="submit" class="btn btn-success btn-lg">Sign up</button>
                 <button type="reset" class="btn btn-danger btn-lg">Cancel</button>
               </div>
 
               <div class="form-group">
-                <a href="signup.php" class="btn btn-primary btn-lg btn-block">Create New Account</a>
+                <a href="index.php" class="btn btn-primary btn-lg btn-block">Log in</a>
               </div>
 
             </form>
+            
             <?php
-            include '../connection.php';
-            if (isset($_POST['submit'])) {
-            $a=$_POST['username'];
-            $b=$_POST['password'];
-            $query="select * from username='$a' and password='$b'";
-            $run=mysqli_query($conn,$query);
-            if(mysqli_num_rows($run)>0)
+            include '../assets/connection.php';
+            if(isset($_POST['submit']))
             {
-              echo "<script>window.open('main.php','_self')</script>";
-            }
-            else{
-              echo "<script>window.alert('Error found')</script>";
-            }
+                $a= $_POST['fname'];
+                $b =$_POST['lname'];
+                $c=$_POST['username'];
+                $d=$_POST['password'];
+                 $query="insert into users(first_name, last_name, username, password)values('$a', '$b', '$c', '$d')";
+                $run=mysqli_query($conn, $query);
+                if($run)
+                {
+                    echo "<script>window.alert('Sign up Successfull!')</script>";
+                    echo "<script>window.open('Signup.php','_self')</script>";
+
+                }
+                else{
+                    echo "<script>window.alert('Not Successfull!')</script>";
+                }
             }
             ?>
           </div>

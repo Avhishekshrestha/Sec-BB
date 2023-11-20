@@ -47,7 +47,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad eos autem quasi doloribus officiis. Quisquam consequatur repellendus dolorem alias sunt, veniam necessitatibus beatae, dolor quibusdam, doloremque culpa sint iure!</p>
                     <h2>our mission</h2>
                     <p>mission for the next approach is need to be install and the next things are coming soon as much as possible. more criteria will be installed according to the possibilities accorfidng to the time</p>
-                <p2>the data restriction of the data communicated adb the last data has been appoigized  mission impossible is on the process and the data has been braodcasted and the data approach gonna be admire in the world and their is no data restrcition.</p2>
+                <p2>the data restriction of  the data has been interupted and the manipulatio and the ceratioon and created if the data has been looped and the reacehd the data communicated adb the last data has been appoigized  mission impossible is on the process and the data has been braodcasted and the data approach gonna be admire in the world and their is no data restrcition.</p2>
                   </div>
                 <div class="col-md-4">
                     <?php

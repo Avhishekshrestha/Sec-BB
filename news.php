@@ -42,7 +42,7 @@
                     <h2>News title will be here and retrieved from database.</h2>
                     <p>
                         <img src="assets/images/slide13.jpg" alt="" width="250px" align="right">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptatem aliquid unde atque iusto inventore debitis quisquam excepturi enim deserunt consequuntur obcaecati architecto necessitatibus autem, cum suscipit labore sit maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, modi consequuntur cupiditate natus labore illo in magnam excepturi! Eum sequi ad minus eos quidem beatae dicta commodi eveniet hic corrupti!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptatem aliquid unde atque iusto inventore debitis quisquam excepturi enim deserunt consequuntur obcaecati architecto necessitatibus autem, cum suscipit labore sit maiores?Lorem ipsum dolor and manifestation and the data has been reduced and the manifestatpion and the data reduved nad the lobed nadn sit amet consectetur adipisicing elit.comfort and the data has been reduced and the newly datta has been prolonged and mananged and the newly programmerlaunced Dolorem, modi consequuntur cupiditate natus labore illo in magnam excepturi! Eum sequi ad minus eos quidem beatae dicta commodi eveniet hic corrupti!
                     </p>
                     <p><a href="post.php" class="btn btn-success">Read More</a></p>
                     <!-- News end -->

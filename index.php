@@ -36,7 +36,7 @@
           <h1 class="display-3">Welcome to Avhishek shrestha</h1>
           <p class="lead">The best budget real state company in Nepal</p>
           <hr class="my-2">
-          <p>Me as a Owner and opertor and instructor of this company as avhishek shrestha i would to like to say one important message to everyone that please listen carefully i am trying to bring new face in my commpany according to their talent and skills though so be careful and for furthemore information contact to me in my email or in contact number as well as if any customer complain then strict action will be taken be carefull too as well as....</p>
+          <p>Me as a Owner and opertor and instructor of this company manisfesatation and the data has been reduced and the newly manifwstation will be changed and the reducedas avhishek shrestha i would to like to say one important message to everyone that please listen carefully i am trying to bring new face in my commpany according to their talent and skills though so be careful and for furthemore information contact to me in my email or in contact number as well as if any customer complain then strict action will be taken be carefull too as well as....</p>
           <p class="lead">
             <a class="btn btn-primary btn-lg" href="about.php" role="button">Know More</a>
           </p>
@@ -76,9 +76,9 @@
         <div class="container">
           <h1 class="display-3">News and Events</h1>
           <div class="row"> 
-            <h2>News title will be here using retrieve function.</h2>
+            <h2>News title will be here using retrieve function and will be delivered.</h2>
             <div class="col-md-8">
-              <p>News shouuld be based on the topic and no un-necessary things houldnot be included in the news about it and the facts should be post and there should be true and facts post and result should be updated too. for furthermore every news should be discovered</p>
+              <p>News shouuld be based highlight and the data the manifestataion and the data need to be add on the data funiton and should be edited on the newly instructed files. has been deducted and the data breacher and the deduction and the nigt status and data has been coorupted on the topic and no un-necessary things houldnot be included in the news about it and the facts should be post and there should be true and facts post and result should be updated too. for furthermore every news should be discovered</p>
               <a href="post.php" class="btn btn-danger">Readmore</a>
             </div>
             <div class="col-md-4">

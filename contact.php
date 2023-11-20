@@ -46,6 +46,7 @@
                     <p>+977 9844335249</p>
                     <p>web-site</p>
                     <p>www.avhishekstha.com</p>
+                    <P>instagram:avhistha984</P>
                     </div>
                 
                     <?php
